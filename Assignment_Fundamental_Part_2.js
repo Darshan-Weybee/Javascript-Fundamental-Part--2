@@ -127,11 +127,11 @@ myCountry.describe = function(){
 console.log(myCountry.describe());
 
 myCountry.checkIsland = function(){
-    isIsland = this.neighbours.length == 0 ? true : false;
+    let isIsland = this.neighbours.length == 0 ? true : false;
     return isIsland;
 };
 console.log(myCountry.isIsland);
-console.log(myCountry);
+console.log(myCountry.checkIsland());
 
 
 console.log("==============LECTURE: Iteration: The for Loop================");
